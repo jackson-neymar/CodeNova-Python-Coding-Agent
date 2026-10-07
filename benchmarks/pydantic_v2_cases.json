@@ -1,0 +1,57 @@
+{
+  "benchmark": "pydantic-v1-to-v2-historical-replay",
+  "run_date": "2026-09-09",
+  "target": "pydantic==2.8.2",
+  "migration_command": "codenova migrate --package pydantic --from 1.10 --to 2.8 --project <checkout> --offline --no-validate --run-id benchmark-final",
+  "cases": [
+    {
+      "name": "certbrother",
+      "repository": "https://github.com/yaleman/certbrother",
+      "pull_request": "https://github.com/yaleman/certbrother/pull/31",
+      "base": "a6f646e198a15c8a4938f047e5b6971e3ef0e893",
+      "head": "fa8cee60adf56d5f1a18fa81c791d76861840052",
+      "merged": true
+    },
+    {
+      "name": "cloudflare-dyndns",
+      "repository": "https://github.com/yaleman/cloudflare-dyndns",
+      "pull_request": "https://github.com/yaleman/cloudflare-dyndns/pull/12",
+      "base": "a9e02b64d784cb8ded29ff87bc1df5d3fc3dc6ff",
+      "head": "0c9812dd6ed38fe80becdd164c9cb575bb85e3bf",
+      "merged": true
+    },
+    {
+      "name": "flexit",
+      "repository": "https://github.com/aloutfi/flexit",
+      "pull_request": "https://github.com/aloutfi/flexit/pull/49",
+      "base": "671adbdf6dd2aa4aaab1f3bb56fcfa4804c23163",
+      "head": "46391ddf745a27e813017fed1dbd5d28917e8326",
+      "merged": true
+    },
+    {
+      "name": "tink-python-api-types",
+      "repository": "https://github.com/namelivia/tink-python-api-types",
+      "pull_request": "https://github.com/namelivia/tink-python-api-types/pull/32",
+      "base": "4a9c5f585bc584896e98a912c472c33cd086530d",
+      "head": "a8ebee69d2738afe252ed2283b4bc438af9ea566",
+      "merged": true
+    },
+    {
+      "name": "koniwa",
+      "repository": "https://github.com/koniwa/koniwa",
+      "pull_request": "https://github.com/koniwa/koniwa/pull/197",
+      "base": "d6119527b638f8a0bb50bfa4d993095a8292a4c9",
+      "head": "5033b11f456a5e4b2e2486272d930821c4bfdbd0",
+      "merged": false
+    },
+    {
+      "name": "fastapi-users",
+      "repository": "https://github.com/fastapi-users/fastapi-users",
+      "pull_request": "https://github.com/fastapi-users/fastapi-users/pull/1249",
+      "base": "3bf0f888ee1847f52b8c5a96e30a1c90ea0f36e9",
+      "head": "5b6d5d471aa20ed63346755010201007561665b2",
+      "merged": true,
+      "run_id": "benchmark-final-v2"
+    }
+  ]
+}

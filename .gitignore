@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# CodeNova local state and secrets
+.codenova/
+.agents/
+.aws/
+.codex/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.log
+credentials.*
+secrets.*
+config.local.*
+
+# Personal notes and generated artifacts
+1.txt
+CODENOVA.md
+经历总结.md
+example-com-snapshot.md
+e positives in pydantic residual scanner"
+benchmarks/results/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
